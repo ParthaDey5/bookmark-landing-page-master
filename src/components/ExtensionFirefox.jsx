@@ -2,7 +2,7 @@ import React from 'react'
 
 function ExtensionFirefox() {
   return (
-    <div className='outline-1 w-[75rem] lg:w-[19.5rem] h-[97rem] lg:h-[27rem] col-x-center lg:pt-16 pt-45 rounded-[1.5rem] lg:translate-y-12'>
+    <div className='lg:shadow-md shadow-lg w-[75rem] lg:w-[19.5rem] h-[97rem] lg:h-[27rem] col-x-center lg:pt-16 pt-45 rounded-[1.5rem] lg:translate-y-12'>
         <img src="/images/logo-firefox.svg" alt="logo-firefox" srcset="" className='w-105 lg:w-30' />
         <h3 className='translate-y-35 lg:translate-y-8'>Add to Firefox</h3>
         <p

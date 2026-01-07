@@ -2,7 +2,7 @@ import React from 'react'
 
 function ExtensionChrome() {
   return (
-    <div className='outline-1 w-[75rem] lg:w-[20rem] h-[97rem] lg:h-[27rem] col-x-center lg:pt-16 pt-45 rounded-[1.5rem]'>
+    <div className='w-[75rem] lg:w-[20rem] h-[97rem] lg:h-[27rem] col-x-center lg:pt-16 pt-45 rounded-[1.5rem] lg:shadow-md shadow-lg'>
         <img src="/images/logo-chrome.svg" alt="logo-chrome" srcset="" className='w-105 lg:w-30' />
         <h3 className='translate-y-32 lg:translate-y-9'>Add to Chrome</h3>
         <p

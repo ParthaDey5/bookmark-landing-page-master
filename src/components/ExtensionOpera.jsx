@@ -2,7 +2,7 @@ import React from 'react'
 
 function ExtensionOpera() {
   return (
- <div className='outline-1 w-[75rem] lg:w-[19.3rem] h-[97rem] lg:h-[27rem] flex col-x-center lg:pt-16 pt-45 rounded-[1.5rem] lg:translate-y-22'>
+ <div className='lg:shadow-md shadow-lg w-[75rem] lg:w-[19.3rem] h-[97rem] lg:h-[27rem] flex col-x-center lg:pt-16 pt-45 rounded-[1.5rem] lg:translate-y-22'>
         <img src="/images/logo-opera.svg" alt="logo-opera" srcset="" className='w-105 lg:w-28' />
         <h3 className='translate-y-27 lg:translate-y-9'>Add to Opera</h3>
         <p
