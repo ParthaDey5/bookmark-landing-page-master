@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  
+  <title>Frontend Mentor | Bookmark landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    :root {
+  --color-blue-600: hsl(231, 69%, 60%);
+  --color-red-400: hsl(0, 94%, 66%);
+  --color-grey-50: hsl(0, 0%, 97%);
+  --color-grey-100: hsl(0, 0%, 75%);
+  --color-blue-950: hsl(229, 31%, 21%)
+;
+}
+.red400{
+  background-color: var(--color-red-400);
+  color: white;
+}
+.blue600{
+  background-color: var(--color-blue-600);
+  color: white;
+}
+.blue950{
+  background-color: var(--color-blue-950);
+}
+.grey50{
+  background-color: var(--color-grey-50);
+  color: black;
+}
+.grey100{
+  color: var(--color-grey-50);
+}
+
+    html{
+      width: 100%;
+      max-width: 100%;
+      font-size: 1vw;
+      overflow-x: hidden;
+    }
+    
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+ul li a, .icon-hamburger, .icon-hamburger, .feature-link, .nav-link, .faq-item, .icon-twitter, .icon-facebook {
+  cursor: url('./images/cursor.png'), pointer;
+}
+
+
+@media (min-width:640px) {
+
+  #mobile-nav{
+    display: hidden;
+  }
+  
+  .faq-question, .faq-answer{
+    font-size: 1.21rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.9rem;
+    letter-spacing: 0.001rem;
+    color: var(--color-blue-950);
+  }
+    .faq-answer{
+    font-weight: 300;
+
+  }  
+  li{
+    font-size: 0.93rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    color: var(--color-blue-950);
+    
+  }
+  h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 3.5rem;
+    letter-spacing: -0.1rem;
+  }
+  h2{
+    font-size: 2.25rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 2.5rem;
+  }
+  h3{
+    font-size: 1.37rem;
+    font-weight: 500;
+    text-align: center;
+  
+  }
+  p{
+    font-size: 1.27rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.9rem;
+    letter-spacing: 0.001rem;
+    color: var(--color-grey-100);
+  }
+  button{
+    width: 11.5rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
+  }
+  
+  
+
+
+}
+@media (max-width:639px) {
+  
+  .faq-answer{
+    font-weight: 300;
+
+  }
+  li{
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    color: var(--color-blue-950);
+    
+  }
+  h1{
+    font-size: 8rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 11rem;
+  }
+  h2{
+    font-size: 6.35rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 11rem;
+  }
+  h3{
+    font-size: 5.5rem;
+    font-weight: 500;
+    text-align: center;
+  
+  }
+  p{
+    font-size: 3.9rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 6.6rem;
+    letter-spacing: 0.001rem;
+    color: var(--color-grey-100);
+  }
+  button{
+    width: 39.8rem;
+    height: 12.7rem;
+    font-size: 3.75rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 1.1rem;
+    box-shadow: 0 1.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  }
+  
+  
+}
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
